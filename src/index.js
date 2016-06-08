@@ -1,1 +1,4 @@
-const {runPartA} = require('./part-a');
+
+require('./pure-functions');
+require('./map-reduce');
+require('./simple-app-state');

@@ -4,7 +4,7 @@
   "description": "Example of the Application and Event Stream to show how redux working on Low Level.",
   "main": "src/index.js",
   "scripts": {
-    "start": "node --require babel-register --require babel-polyfill index.js",
+    "start": "node --require babel-register --require babel-polyfill ./src/index.js",
     "test": "test"
   },
   "repository": {
@@ -22,6 +22,7 @@
   "dependencies": {
     "babel-eslint": "^6.0.4",
     "babel-polyfill": "^6.9.1",
+    "babel-preset-es2016": "^6.0.11",
     "babel-register": "^6.9.0",
     "eslint": "^2.11.1",
     "eslint-config-airbnb": "^9.0.1",
