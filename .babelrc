@@ -1,0 +1,9 @@
+{
+  "presets": ["es2016", "stage-0", "react"],
+  "plugins": [
+    "transform-flow-strip-types",
+    "syntax-flow",
+    "transform-decorators-legacy",
+    "syntax-async-functions"
+  ]
+}
