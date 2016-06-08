@@ -1,0 +1,24 @@
+{
+  "name": "no-redux",
+  "version": "0.0.1",
+  "description": "Example of the Application and Event Stream to show how redux working on Low Level.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/nirth/no-redux.git"
+  },
+  "keywords": [
+    "redux",
+    "tutorial"
+  ],
+  "author": "David Sergey <me@davidsergey> (http://davidsergey.com)",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/nirth/no-redux#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.9.1",
+    "babel-register": "^6.9.0"
+  }
+}
