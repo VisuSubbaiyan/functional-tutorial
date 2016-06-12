@@ -2,7 +2,7 @@ console.info('---------------------');
 console.info('Map Reduce');
 console.info('---------------------');
 
-import {stockPrices} from './assets/stocks';
+import {stockPrices} from './stocks';
 
 // Sample lines from `stockPrices`:
 // {id: 5, openingPrice: '37.65', closingPrice: '19.64'},
