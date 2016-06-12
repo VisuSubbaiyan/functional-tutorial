@@ -3,7 +3,8 @@
   "extends": "airbnb",
   "rules": {
     "no-console": ["off"],
-    "max-len": ["error", 100, { "ignoreComments": true }],
+    "comma-dangle": ["error", "always-multiline"],
+    "max-len": ["error", 120, { "ignoreComments": true }],
     "no-trailing-spaces": ["error", { "skipBlankLines": true }],
     "no-unused-vars": ["error", {"argsIgnorePattern": "[event|payload]"}],
     "new-cap": ["error", {"capIsNewExceptions": ["Immutable"]}],
